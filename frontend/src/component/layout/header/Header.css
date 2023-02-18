@@ -1,0 +1,169 @@
+.image {
+    height: 45px;
+    position: relative;
+    right:35px;
+ }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #040935 0%, #00041b 40%, #010416 58%, #000105 100%);
+    overflow: hidden;
+    padding: 0 50px 10px 100px;
+    width: 92%;
+    box-shadow: 0px 4px 5px -3px rgb(19, 18, 18);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 11;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #dfdede;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a.hover {
+    transition: ease-in-out;
+    color: #eb4034;
+}
+
+.header_search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header_searchInput {
+    height: 22px;
+    padding: 12.5px;
+    border: none;
+    width: 20vw;
+    font: 200 1.1vmax ;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 4px 1px 1px 4px;
+    position: relative;
+    right: 255px;
+    top: 27px
+}
+
+
+.search-btn {
+    padding-left: 19px;
+    width: 2vw;
+    height: 30.2px;
+    outline: none;
+    background-color: #a8640c;
+    border-radius: 1px 4px 4px 1px;
+    position: relative;
+    right: 255px;
+    top: 27px;
+
+
+}
+
+
+.search-btn>svg {
+    position: absolute;
+    height: 22px;
+    transform: translate(-1vmax, -0.8vmax);
+
+}
+
+.search-btn:hover,
+.search-btn.hover {
+    transition: ease-in-out;
+    color: #fff;
+}
+
+.speedDial {
+    position: fixed;
+    right: 2.5vmax;
+    top: 0.85vmax;
+
+}
+
+.speedDialIcon {
+    width: 53px;
+    height: 53px;
+    border-radius: 100%;
+}
+
+.MuiSpeedDial-fab {
+      background: linear-gradient(180deg, #040935 0%, #00041b 40%, #010416 58%, #000105 100%) !important;
+}
+ @media screen and (max-width: 600px) {
+    nav {
+   padding: 0 50px 0px 100px;
+                     }
+
+    #navbar li {
+        position: relative;
+            right: 135px;
+    
+        }
+        .image {
+                height: 35px;
+                padding-left: 70px;
+               padding-bottom: 40px;
+            }
+     .header_search{
+        padding:15px 0 25px 0 ;
+        }
+   
+  .header_searchInput {
+        width: 160px;
+        padding-top: 13px;
+       font-size: 15px;
+        position: relative;
+        right: 1px;
+        top: 3px;
+         }
+
+    .search-btn {
+        padding-left: 20px;
+        position: relative;
+        right: 0px;
+        top:4px;
+        height: 28px;
+    }
+
+    .search-btn>svg {
+        height: 25px;
+        position: relative;
+        top: 4px;
+        right: 7px;
+    }
+
+    ::placeholder {
+        font-size: 15px;
+    }
+        .speedDialIcon {
+            width: 46px;
+            height: 46px;
+            border-radius: 100%;
+        }
+
+
+ }
+
