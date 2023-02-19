@@ -15,7 +15,7 @@
 }
 
 .confirmshippingArea>p {
-    font: 400 2vmax "Roboto";
+    font: 400 2vmax "Roboto" !important;
     padding-top: 8px;
 }
 
@@ -30,18 +30,18 @@
 }
 
 .confirmshippingAreaBox>div>p {
-    font: 400 0.6vmax "Roboto";
+    font: 400 1vmax "Roboto"  cursive;
     color: black;
 }
 
 .confirmshippingAreaBox>div>span {
     margin: 0 1vmax;
-    font: 100 1vmax "Roboto";
+    font: 100 1.2vmax "Roboto";
     color: #575757;
 }
 
 .confirmCartItems>p {
-    font: 400 1.8vmax "Roboto";
+    font: 400 1.8vmax "Roboto" !important;
 }
 
 .confirmCartItems {
@@ -64,7 +64,7 @@
 }
 
 .confirmCartItemsContainer>div>img {
-    width: 3vmax;
+    width: 4vmax ;
 }
 
 .confirmCartItemsContainer>div>a {
