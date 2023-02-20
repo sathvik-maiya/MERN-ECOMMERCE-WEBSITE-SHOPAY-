@@ -121,4 +121,8 @@
                 font: 500 3.5vmax "Roboto";
                 width: 30vw;
         }
+                .products{
+                    padding: 5px 1vmax;
+
+                }
 }
