@@ -4,13 +4,10 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
-    "@mui/base": "^5.0.0-alpha.117",
     "@mui/icons-material": "^5.11.0",
     "@mui/lab": "^5.0.0-alpha.119",
     "@mui/material": "^5.11.6",
-    "@mui/styles": "^5.11.2",
     "@mui/x-data-grid": "^5.17.23",
-    "@reduxjs/toolkit": "^1.9.1",
     "@stripe/react-stripe-js": "^1.16.4",
     "@stripe/stripe-js": "^1.46.0",
     "@testing-library/jest-dom": "^5.16.5",
