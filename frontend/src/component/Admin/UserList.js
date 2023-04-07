@@ -126,7 +126,7 @@ const UserList = () => {
           <DataGrid
             rows={rows}
             columns={columns}
-            pageSize={10}
+            pageSize={8}
             disableSelectionOnClick
             className="productListTable"
             autoHeight
